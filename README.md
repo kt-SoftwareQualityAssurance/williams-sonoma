@@ -1,14 +1,12 @@
 # williams-sonoma
 ## Introduction
 This is to test https://www.williams-sonoma.com/ using page object model.
-
 ###### Scenario 01:
 - Product page shows "Add to cart” button
 - When click on "Add to cart” button, add to cart overlay appears
 - Checkout button is on the add to cart overlay
 - When click on "Checkout" button then shopping cart page is shown
 - The product you added to cart should be on shopping cart page
-
 ###### Scenario 02:
 - Search field takes to the results page
 - Below the product's image display the quick look link
@@ -38,6 +36,13 @@ Run command on Terminal ```cucumber -t @kt```
 1️⃣  Ruby
 2️⃣  Watir (Selenium Wrapper)
 3️⃣  Cucumber
+
+## Scenario - 01 Results
+![](Scenario_01_report.png)
+
+
+## Scenario - 02 Results
+![](Scenario_02_report.png)
 
 ## Author
 Kunaal Thanik
